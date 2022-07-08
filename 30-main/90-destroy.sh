@@ -8,10 +8,8 @@ cd $BASEDIR
 source ../set-env.sh
 source ./set-env.sh
 
-
 terraform init \
   -input=false \
   -backend-config="bucket=${BUCKET_NAME}"
 
 terraform destroy -auto-approve
-
