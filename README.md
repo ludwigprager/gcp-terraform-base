@@ -1,15 +1,15 @@
 # GCP Terraform Playground
 
 ## TL;DR
-1. Change 
+1. Set your project id in  
 [`MY_project_id`](./set-env.sh#L8)
 in
 [`set-env.sh`](./set-env.sh)
-and
+and select a
 [`MY_PREFIX`](./set-env.sh#L7)
 in
-[`set-env.sh`](./20-tf-backend/set-env.sh)
-to globally unique names.
+[`set-env.sh`](./20-tf-backend/set-env.sh).
+The latter must be globally unique.
 2. Run
         ```
         ./10-deploy.sh
