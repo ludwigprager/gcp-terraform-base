@@ -1,12 +1,12 @@
-# Azure Terraform Playground
+# GCP Terraform Playground
 
 ## TL;DR
 1. Change 
-[`MY_project_id`](./set-env.sh#L5)
+[`MY_project_id`](./set-env.sh#L8)
 in
 [`set-env.sh`](./set-env.sh)
 and
-[`MY_PREFIX`](./set-env.sh#L3)
+[`MY_PREFIX`](./set-env.sh#L7)
 in
 [`set-env.sh`](./20-tf-backend/set-env.sh)
 to globally unique names.

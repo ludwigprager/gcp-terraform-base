@@ -2,8 +2,11 @@
 
 
 # add the project id that GCP generated for your project
+# example:
+# export MY_project_id="g1-01-355707"
+
 export MY_project_id=
-export MY_project_id="g1-01-355707"
+
 
 export MY_region="europe-west1"
 
