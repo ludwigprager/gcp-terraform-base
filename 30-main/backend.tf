@@ -1,5 +1,3 @@
-
-
 terraform {
   backend "gcs" {
     # unique name to identify the file within the bucket
