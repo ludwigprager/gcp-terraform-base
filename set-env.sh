@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
+# set MY_PREFIX so that BUCKET_NAME is a globally unique name
+# example:
+MY_PREFIX=g1-20220708-lp
+
+# MY_PREFIX=
+
+export BUCKET_NAME="${MY_PREFIX}-bucket"
 
 # add the project id that GCP generated for your project
 # example:
-# export MY_project_id="g1-01-355707"
+export MY_project_id="g1-01-355707"
 
-export MY_project_id=
+# export MY_project_id=
 
-
-export MY_region="europe-west1"
-
-export TF_VAR_project_id=${MY_project_id}
-export TF_VAR_region=${MY_region}
-
-export TF_VAR_network_name="my-network-01"
-export TF_VAR_subnetwork_name="my-subnetwork"
+export CLOUDSDK_CORE_PROJECT=${MY_project_id}
