@@ -4,8 +4,9 @@
 1. Set your project id in  
 [`MY_project_id`](./set-env.sh#L8)
 in
-[`set-env.sh`](./set-env.sh)
-and select a
+[`set-env.sh`](./set-env.sh)  
+and  
+select a
 [`MY_PREFIX`](./set-env.sh#L7)
 in
 [`set-env.sh`](./20-tf-backend/set-env.sh).
