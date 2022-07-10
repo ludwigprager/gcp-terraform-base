@@ -2,18 +2,12 @@
 
 # add the project id that GCP generated for your project
 # example:
-# export MY_project_id="g1-01-355707"
+# export CLOUDSDK_CORE_PROJECT="g1-01-355707"
 
-# export MY_project_id=
+# export CLOUDSDK_CORE_PROJECT=
 
-export CLOUDSDK_CORE_PROJECT=${MY_project_id}
-
-# set MY_PREFIX so that BUCKET_NAME is a globally unique name
+# select a globally unique BUCKET_NAME
 # example:
-# MY_PREFIX=g1-20220708-lp
+# BUCKET_NAME=g1-20220708-lp
 
-# MY_PREFIX=
-
-export BUCKET_NAME="${MY_PREFIX}-bucket"
-
-
+# BUCKET_NAME=
